@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form 
+        {
+            width: 30%;
+            padding-left: 30%;
+        }
+        label
+        {  
+            font-style: oblique;   
+        }
+    </style>
+</head>
+<body>
+    <form target="_blank">
+        <fieldset>
+            <legend>Student Information:</legend><br>
+    <label for="name">First Name:</label>
+    <input type="text" name="fname" placeholder="First Name" required><br>
+    <br>
+    <label for="name">Last Name:</label>
+    <input type="text" name="lname" placeholder="Last Name" required><br>
+    <br>
+    <label for="name">Email:</label>
+    <input type="text" name="Email" placeholder="Email" required><br>
+    <br>
+    <label for="PhoneNo">PhoneNo:</label>
+    <input type="tel" name="PhoneNo" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" class="text" placeholder="1234-567-890"><br>
+    <br>
+    <label for="Profile pic">Profile Pic:</label> 
+    <input type="file"><br>
+    <br>
+    <label for="Hobbies">Hobbies:</label>
+    <input list="Hobbies">
+    <datalist id="Hobbies">
+        <option value="Criket"></option>
+        <option value="football"></option>
+        <option value="bad-minton"></option>
+    </datalist><br>
+    <br>
+    <label for="birthdate">birthdate:</label>
+    <input type="date" name="birthdate"><br>
+    <br>
+    <input type="submit" style="background-color: cadetblue;">
+    <input type="reset" name="reset" style="background-color: cadetblue;">
+</fieldset>
+    </form>
+</body>
+</html>
