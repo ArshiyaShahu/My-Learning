@@ -1,11 +1,11 @@
 .button
 {
-    background-color: #F57B36;
+    background-color: #b8a61b;
     border: 100px;
-    width: 20%;
-    height: 50px;
+    width: 10%;
+    height: 30px;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 20px;
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -21,14 +21,14 @@ div
 .flex-container
 {
     display: flex;
-    background-color: rgb(116, 196, 98);
+    background-color: rgb(65, 134, 83);
     border-radius: 10px;
 }
 
 nav a{
     /* background-color: antiquewhite; */
-    width: 50px;
-    color: #000a02;
+    width: 100px;
+    color: #021406;
     height: 20px;
     margin: 10px;
     padding: 10px;
@@ -37,6 +37,6 @@ nav a{
 
 nav a:hover
 {
-    background-color: rgb(41, 94, 49);
+    background-color: rgb(74, 160, 107);
     border-radius: 10px;
 }
