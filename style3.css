@@ -1,0 +1,15 @@
+button{
+    color: white;
+    background-color: rgb(20, 141, 20);
+    padding: 6px;
+    width: 14%;
+}
+fieldset{
+    border-width: 16px;
+    border-image: repeat;
+    margin: 35px;
+    column-width: 20px
+}
+h2{
+    text-align: justify;
+}
